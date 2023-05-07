@@ -14,12 +14,12 @@
     </head>
     <body>
         <%
-            Persona persona = new Persona();
-            persona.setNombre("Juan");
-            persona.setDireccion("Calle 123, Ciudad");
+            NewClass persona = new NewClass();
+            NewClass.setNombre("Juan");
+            NewClass.setDireccion("Calle 123, Ciudad");
         %>
-        <h1>Mi nombre es <%= persona.getNombre() %></h1>
-        <p>Vivo en <%= persona.getDireccion() %></p>
+        <h1>Mi nombre es <%= NewClass.getNombre() %></h1>
+        <p>Vivo en <%= NewClass.getDireccion() %></p>
     </body>
 </html>
 
