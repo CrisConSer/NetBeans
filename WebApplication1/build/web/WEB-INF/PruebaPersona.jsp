@@ -5,7 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ page import="paquete.NewClass" %>
+<%@ page import="paquete.Persona" %>
 <!DOCTYPE html>
 <html>
     <head>
