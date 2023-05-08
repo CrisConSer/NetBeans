@@ -6,7 +6,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ page import="Personas.PersonaClass" %>
-import Personas.PersonaClass;
 <!DOCTYPE html>
 <html>
     <head>
