@@ -1,3 +1,5 @@
+package Personas;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -7,7 +9,7 @@
  *
  * @author CRISTINA
  */
-public class Persona {
+public class PersonaClass {
     private String nombre;
     private String direccion;
     

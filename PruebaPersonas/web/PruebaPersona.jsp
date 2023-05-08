@@ -5,21 +5,22 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ page import="Persona_class.NewClass" %>
+<%@ page import="Personas.PersonaClass" %>
+import Personas.PersonaClass;
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>PAGINA PRUEBA PERSONAS</title>
     </head>
     <body>
         <%
-            NewClass persona = new NewClass();
-            NewClass.setNombre("Juan");
-            NewClass.setDireccion("Calle 123, Ciudad");
+            PersonaClass persona = new PersonaClass();
+            persona.setNombre("Juan");
+            persona.setDireccion("Calle 123, Ciudad");
         %>
-        <h1>Mi nombre es <%= NewClass.getNombre() %></h1>
-        <p>Vivo en <%= NewClass.getDireccion() %></p>
+        <h1>Mi nombre es <%= persona.getNombre() %></h1>
+        <p>Vivo en <%= persona.getDireccion() %></p>
     </body>
 </html>
 
